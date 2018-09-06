@@ -1,0 +1,639 @@
+
+    
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>olimpos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+   <style>
+
+
+.container .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  animation: animate 10s linear infinite;
+}
+.container .slider .slide {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.container .slider .slide .caption { 
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  left: 60px;
+  padding: 30px;
+  background-color: rgba(0,0,0,.5);
+  box-sizing:border-box;
+  transition: 0.5s;
+}
+.container .slider .slide .caption h2 { 
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 48px;
+  transition: 0.5s;
+}
+.container .slider .slide .caption p { 
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.container .slider .slide.slide1 {
+  background: url(https://olimpos.com/wp-content/uploads/2016/05/Olympos_01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container .slider .slide.slide2 {
+  background: url(https://i1.trekearth.com/photos/167787/dsc_02844.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container .slider .slide.slide3 {
+  background: url(http://www.kadirstreehouses.com/Photos/kadirs-tree-houses-bungalov2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container .slider .slide.slide4 {
+  background: url(https://steemitimages.com/0x0/https://steemitimages.com/DQmaotaqZPmrMPtgAkout8sjw4J3m12mtQvtGU4rs8hy9GU/image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+
+@keyframes animate {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container .slider .slide .caption { 
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    padding: 20px;
+  }
+  .container .slider .slide .caption h2 { 
+    margin: 0 0 10px;
+    font-size: 30px;
+  }
+  .container .slider .slide .caption p { 
+    font-size: 16px;
+  }
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+  </head>
+
+  <body id="page-top">
+    
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+      
+      <div class="container">
+
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">OLİMPOS'U KEŞFET</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Hizmetler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Gezilecek Yerler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Civarda Gezilecek Yerler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Hakkımda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">İletişim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">  </div>
+   <p class="navbar-text pull-right">
+    
+    <% if user_signed_in? %>
+    Logged in as <strong> <%= current_user.email %></strong>
+    <%= link_to 'Edit Profile', edit_user_registration_path, :class=>'navbar-link'%> |
+    <%= link_to 'Logout', destroy_user_session_path, method: :delete, :class=>'navbar-link'
+    %>
+    <% else %>
+    <%= link_to "Sign up", new_user_registration_path, :class=>'navbar-link' %> |
+    <%= link_to "Login", new_user_session_path, :class=>'navbar-link'%>
+    <%end%>
+    </nav></a>
+            </li>
+          </ul>
+
+        </div>
+    
+
+    <header class="masthead">
+     
+<div class="container">
+    <div class="slider">
+        <div class="slide slide1">
+            <div class="caption">
+                <h2></h2>
+                <p>Kemer'den yaklaşık 28 km. mesafede, batıda, meşhur Çıralı tatil beldesinden 5-10 dakikalık yürüme mesafesinde bulunan ve eski bir Likya antik kenti olan Olimpos, muhteşem doğal güzellikleri, tarihi ve plajı ile Antalya Kemer'de mutlaka görülmesi gereken önemli tatil ve ören yerlerinden birisidir.</p>
+            </div>
+        </div>
+        <div class="slide slide2">
+            <div class="caption">
+                <h2></h2>
+                <p>Olimpos'un hemen yanıbaşında 230 merte yükseklikte bulunan ve kayalar arasında çıkan gazlarıyla yanan ateşi ile meşhur Yanartaş mevkii de görülmeye ve gezilmeye değerdir.</p>
+            </div>
+        </div>
+        <div class="slide slide3">
+            <div class="caption">
+                <h2></h2>
+                <p>Olimpos, sit alanı içerisinde bulunduğundan, bölgede yapılaşma yasaktır. Bu maksatla Olimpos'ta konaklama olarak ağaç evler ve ahşap bungalow'lar meşhur olmuştur. Olimpos'ta konaklamak isteyen tatilciler buralarda konaklamaktadır. Bölge özellikle genç tatilciler tarafından tercih edilmektedir. Özellikle Kadir'in Ağaç Evleri, bölgenin en meşhur yeridir.</p>
+            </div>
+        </div>
+        <div class="slide slide4">
+            <div class="caption">
+                <h2></h2>
+                <p>Yaklaşık 95.000.000 yıldır dünya denizlerinde dolaşan ve son sığınma yerlerinden biri olan Akdeniz’de tehlike altındaki soylarını sürdürmeye çabalayan70 – 160 kg ağırlığında ve 90 – 120 cm boyunda büyük boy kaplumbağalardır.</p>
+            </div>
+        </div>
+        <div class="slide slide1">
+            <div class="caption">
+                <h2></h2>
+                <p>Çıralı ve Olimpos'un tepelerinde 230 metre yükseklikte yer alan Yanartaş, sonsuz ateş olarak anılan ve doğal bir ateş kaynağına sahiptir.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <br>
+ <br>
+  <br>
+   <br>
+    <br>
+     <br>
+      <br>
+       <br>
+          <br>
+ <br>
+  <br>
+   <br>
+    <br>
+     <br>
+      <br>
+       <br>
+        <br>
+  <br>
+   <br>
+    <br>
+     <br>
+      <br>
+       <br>
+          <br>
+ <br>
+  <br>
+   <br>
+    <br>
+     <br>
+      <br>
+       <br>
+    <!-- Services -->
+    
+    <!-- Services -->
+    <section id="Services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 style="color:black" class="section-heading text-uppercase">Hizmetler</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img class="img-fluid "src=../assets/g.jpg height="150px" width="150px" alt="" >
+            </span>
+            <h4 style="color: black" class="service-heading">Seyehat Rehberi</h4>
+            <p class="text-muted">Olimpos'ta ve civarında gezilecek yerler, olimpos'ta yeme-içme, olimposta gece hayatı, oteller ve pansiyonlar, kamp ve ulaşım.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img class="img-fluid "src=../assets/h.jpg height="150px" width="150px" alt="" >
+            </span>
+            <h4 style="color: black" class="service-heading">Olimpos Nerede?</h4>
+            <p class="text-muted">
+              Olimpos, Antalya’nın Kumluca ilçesine bağlı bir bölge.
+              Antalya Olimpos arası yaklaşık 85 kilometre, arabayla 1 saat 30 dakika civarında sürüyor,
+              İstanbul Olimpos arası 777 kilometre olup arabayla 9 saat 30 dakika kadar sürüyor.
+              Adana Olimpos arası ise Konya üzerinden giderken 727 kilometre, sahilden giderken ise 632 kilometre mesafeye sahip.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img class="img-fluid "src=../assets/ı.jpg height="150px" width="150px" alt="" >
+            </span>
+          <h4 style="color: black" class="service-heading">Olimpos'a Nasıl Gidilir?</h4>
+          <p class="text-muted">
+            İstanbul’dan Uçakla
+            Olimpos’a uçakla geleceklerin Antalya’ya uçuşları olan THY, Pegasus, Onur Air ve Sun Express seferlerini kullanarak Antalya Havaalanına gelip buradan Havaş servisleri ile Antalya Otogar’ına giderek Kumluca tarafına giden servislere binmeleri gerekiyor. Kumluca’dan da Olimpos ve çevresine giden minibüsler mevcut.
+            Antalya’dan Otobüsle ve Arabayla
+            600 hat nolu belediye otobüsü ile Antalya Otogarına giderek orada bulunan Kumluca Seyahat, Çiçek Tur veya Batı Antalya minibüslerine binebilirsiniz. Firmalar 06:00-20:00 arası hizmet vermektedir.
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 style="color: black" class="section-heading text-uppercase">Olimpos Gezilecek Yerler</h3>
+            <h3 style="color: black" class="section-subheading text-muted">Olimpos’ta bir gün dalış, bir gün kaya tırmanışı, bir gün plajda yaymaca, bir gün atv ile safari derken zaman ufalanıp gidiyor. E zaten bi de hangover vaziyetlerinden güne 1’de 2’de başlamak gibi bir durum da var… Biz burada Olimpos klasiklerinin hepsini listeledik.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid "src=../assets/a.jpg height="300px" width="500px" alt="" >
+            </a>
+            <div class="portfolio-caption">
+              <h4 style="color: black"> Caretta Carettalar İle Denizi Paylaşın♡</h4>
+              <p class="text-muted">Carette Carettalar
+            </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="../assets/b.jpg" height="300px" width="500px" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 style="color: black"> Üşenmeyin, Adrasan’a Da Mutlaka Gidin♡</h4>
+              <p class="text-muted">Adrasan</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="../assets/c.jpg" height="300" width="500" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 style="color: black">Kano Kiralayıp Kayalıkların Gizemlerini Keşfedin♡</h4>
+              <p class="text-muted">Kano</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="../assets/d.jpg" height="300" width="500" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 style="color: black">Olympos Antik Kenti’ni Gezin♡</h4>
+              <p class="text-muted">Antik Kent</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="../assets/e.jpg" height="300" width="500" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 style="color: black">Olimpos’un Simgesi Kadir’in Ağaç Evlerinde Takılın♡</h4>
+              <p class="text-muted">Ağaç evler</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="../assets/f.jpg" height="300" width="500"  alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 style="color: black"> Gece Tanrıların Hiç Sönmeyen Ateşi Yanartaş’a Çıkın♡
+              </h4>
+              <p class="text-muted">Yanartaş</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 style="color: black" class="section-heading text-uppercase">OLİMPOS CİVARINDA GEZİLECEK YERLER</h3>
+            <h3 style="color: black" class="section-subheading text-muted">Antalya Türkiye’nin en cennet coğrafyalarından. Hazır buralara kadar gelmişken bir de yakınlardaki yerleri görmek isteyebilirsiniz.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img src="../assets/k.jpg"  class="rounded-circle"  height="155px" width="155" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 style="color:black">Ulupınar</h4>
+                    <h4 style="color:black" class="subheading">
+                      Ayaklarınız Buz Gibi Soğuk Suda Balık Keyfi Yapın
+                    </h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Antalya’nın yakıcı sıcağında Ulupınar’a vardığınız an çam kokusu ve derelerinin serinliği ile bir ferahlama yaşayacaksınız. Yemek yiyebileceğiniz çoğu restoran mevcut ve bu restoranlar diğerlerinden farklı olarak derelerin veya şelalelerin üzerinde bulunan çardaklarda hizmet veriyor. Bir yanda suyun sesi ve ferahlığı diğer yanda yeşilliklerin arasında olmak tam anlamıyla buranın tarifini aslında. İsterseniz olta balıkçılığı ile kendi alabalığınızı yakalayabiliyorsunuz.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img src="../assets/l.jpg"  class="rounded-circle"  height="155px" width="155" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 style="color:black">Adrasan’nın  Maldivleri</h4>
+                    <h4 style="color:black" class="subheading">Suluada</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                       Maldivler diyebileceğimiz kadar saf, el değmemiş bir doğa güzelliği! Adrasan ile Gelidonya arasında yer alan minik bir adacık kendisi. Üzerinde yerleşim alanı mevcut değil,zaten belki de bu yüzden bu kadar saf kalabilmiş.Güzelliğinin yanında diğer özelliği ise tatlı su kaynağı barındırması. Adaya ancak yukarıda anlattığım tekne turları ile ya da balıkçı teknelerini kiralayarak gidebiliyorsunuz. Biz tekne turuna katılamadığımızdan Suluada’dan da kendimizi mahrum bırakmış olduk. Adaya çoğu fimanın tekne turları var. 
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img src="../assets/m.jpg"  class="rounded-circle"  height="155px" width="155" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 style="color: black">Likya Yolu</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Dünyanın en iyi trekking rotalarından biri olarak gösterilen Likya Yolu’nun bir etabı da Olimpos’tan geçiyor. Buralar dünyada tarihi ve doğanın birbirine örüldüğü en güzel yerlerden.. Fethiye’den başlayarak Antalya’ya kadar uzanan yol genel hatlarıyla taşlık ve kayalıktan oluşuyor.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img src="../assets/n.jpg"  class="rounded-circle"  height="155px" width="155" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 style="color:black">İster Karadan İster Denizden </h4>
+                    <h4 class="subheading" style="color:black">Kekova</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Batık Uygarlık denilen, adı çoğu kaynaklara ‘Kakava’ olarak geçen bu kayalık adacık antik çağ sonrasında yaşanan depremler sonrasında su altında kalmış tarihi kalıntılar bulunduruyor. Sahip olduğu bu kalıntılar dalgıçlar tarafından sürekli inceleniyor. 1990 yılında sit alanı ilan edilmiş ve burada izinsiz dalma veya yüzmeler yasaklanmış. Daha sonraları ise tarihi kalıntıların olmadığı bölgelerde bu yasaklar kalkmış. Buraya ulaşım da teknelerle oluyor. 
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Haydi
+                    <br>Durma Doyma
+                    <br>Gezmeye!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="bg-light" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="section-heading text-uppercase" style="color: black">Hakkımda</h1>
+            <h3 class="section-subheading text-muted">EVDE OTURAN ERKEN ÖLÜR :) </h3>
+          </div>
+        </div>
+            <div class="team-member">
+            <div style="text-align:center">
+            <img class="mx-auto rounded-circle" src="../assets/su.png"  alt=""> 
+              <h4 style="color: black">Sümeyye Ay</h4>
+              <p class="text-muted">
+                Software Engineer
+              </p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    
+  
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">İletişim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="İsminiz *" required="required" data-validation-required-message="Lütfen Adınızı Giriniz.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Email*" required="required" data-validation-required-message="Lütfen E-mail Adresinizi Giriniz.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Telefon Numarası *" required="required" data-validation-required-message="Lütfen Telefon Numaranızı Giriniz.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Mesaj Yaz *" required="required" data-validation-required-message="Lütfen Mesajınızı Yazın."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Gönder</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>

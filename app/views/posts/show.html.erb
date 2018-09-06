@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.try(:title) %>
+</p>
+ <p>  <strong>Image:</strong>
+  <%= image_tag @post.image.url(:medium) %></p>
+<p>
+  <strong>Msg:</strong>
+  <%= @post.msg %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
